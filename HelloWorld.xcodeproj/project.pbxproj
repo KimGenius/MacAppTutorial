@@ -11,6 +11,7 @@
 		51F113722033E3F60002DA18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F113712033E3F60002DA18 /* ViewController.swift */; };
 		51F113742033E3F60002DA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F113732033E3F60002DA18 /* Assets.xcassets */; };
 		51F113772033E3F60002DA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F113752033E3F60002DA18 /* Main.storyboard */; };
+		FB3AE57463EBA8491CC9CF38 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FB3AE551B872E579ECD96F63 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		51F113762033E3F60002DA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51F113782033E3F60002DA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51F113792033E3F60002DA18 /* HelloWorld.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloWorld.entitlements; sourceTree = "<group>"; };
+		FB3AE551B872E579ECD96F63 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			children = (
 				51F1136E2033E3F60002DA18 /* HelloWorld */,
 				51F1136D2033E3F60002DA18 /* Products */,
+				FB3AE551B872E579ECD96F63 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +127,7 @@
 			files = (
 				51F113742033E3F60002DA18 /* Assets.xcassets in Resources */,
 				51F113772033E3F60002DA18 /* Main.storyboard in Resources */,
+				FB3AE57463EBA8491CC9CF38 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
