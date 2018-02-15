@@ -41,6 +41,7 @@ class ViewController: NSViewController {
         print("num2 : ", num2 as Any)
         /*
          실행 결과 문자를 넣으면 num에 nil이 들어간다.
+         AppCode를 통해서 실행해서 문자를 넣으면 앱이 종료됨 exit code 132
          숫자를 넣을경우 잘 성공
          */
         if (num1 == nil || num2 == nil) {
