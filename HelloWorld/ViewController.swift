@@ -33,10 +33,7 @@ class ViewController: NSViewController {
         let num2 = Int(num2Field.stringValue)
         // 나중에 결과 값을 더해줘야 하니 변하는 값, var로 선언
         var result = 0
-        // nil은 값이 없는 것.
-        // Swift 에서는 모든 타입에 대하여 값이 없는 것이 nil
-        // Obj-C 에서는 Reference Type에 대해서만 값이 없는 것이 nil
-        print("num1 : ", num1!)
+        print("num1 : ", num1 as Any)
         // Kotlin의 !!와 Any와 비슷한 건가
         print("num2 : ", num2 as Any)
         /*
@@ -51,10 +48,6 @@ class ViewController: NSViewController {
             helloLabel.stringValue = String(result)
             print("result : " + String(result), terminator: " \n")
         }
-        // terminator:"" 속성은 "" 안에 들어간 내용으로 마지막에 넣는다.
-        // ex) terminator:"" -> 아무 값도 안함, 즉 기본인 개행도 하지 않음
-        // ex) terminator:" " -> 마지막마다 한칸 띄어쓰기 함
-        // 개행문자는 다른거와 같이 \n 인듯.
     }
 
 }
